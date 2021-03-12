@@ -381,6 +381,11 @@ img {
 
 /* ============= SELECTION CLIENT ============= */
 
+.client {
+  padding-top: var(--section-pt);
+  padding-bottom: var(--section-pb);
+}
+
 .yaco {
   width: 45px;
   height: 50px;
@@ -409,6 +414,35 @@ img {
 .tag {
   width: 90px;
   height: 45px;
+}
+.client-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.client-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.client-list-icon {
+  fill: #afb1b8;
+}
+.client-list-link:hover,
+.client-list-link:focus {
+  border: 1px solid #2196f3;
+  border-radius: 4px;
+}
+
+.client-list-link:hover .social-list-icon,
+.client-list-link:focus .social-list-icon {
+  fill: #2196f3;
 }
 
 /* ============= END SELECTION CLIENT ============= */
