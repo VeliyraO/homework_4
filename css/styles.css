@@ -98,6 +98,11 @@ img {
   height: 20px;
   fill: #afb1b8;
 }
+.social-list-icon-footer {
+  width: 20px;
+  height: 20px;
+  fill: var(--white-accent);
+}
 
 .social-list {
   display: flex;
@@ -114,7 +119,20 @@ img {
   border-radius: 50%;
   background-color: var(--white-accent);
 }
+.social-list-link-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+}
 
+.social-list-link-footer:hover,
+.social-list-link-footer:focus {
+  background-color: var(--accent-color);
+}
 .social-list-link:hover,
 .social-list-link:focus {
   background-color: var(--accent-color);
@@ -192,24 +210,38 @@ img {
 }
 
 .address {
+  display: flex;
+  align-items: center;
   margin-left: auto;
 }
 
 .icon-tel {
-  width: 16px;
-  height: 12px;
-  fill: currentColor;
-}
-
-.icon-e-mail {
   width: 10px;
   height: 16px;
   fill: currentColor;
+  margin-right: 10px;
+}
+
+.icon-e-mail {
+  width: 16px;
+  height: 12px;
+  fill: currentColor;
+  margin-right: 10px;
 }
 
 .contact-link-header:hover,
 .contact-link-header:focus {
   color: var(--accent-color);
+}
+
+.contact-link-header:hover .icon-tel,
+.contact-link-header:focus .icon-tel {
+  fill: var(--accent-color);
+}
+
+.contact-link-header:hover .icon-e-mail,
+.contact-link-header:focus .icon-e-mail {
+  fill: var(--accent-color);
 }
 
 /* ============= END HEADER ============= */
@@ -610,6 +642,19 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--white-accent);
+}
+
+.social-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-accent);
+}
+.social-footer {
+  display: flex;
 }
 
 /* ============= END FOOTER ============= */
