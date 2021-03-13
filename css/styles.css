@@ -94,13 +94,9 @@ img {
 }
 
 .social-list-icon {
-  width: 20px;
-  height: 20px;
   fill: #afb1b8;
 }
 .social-list-icon-footer {
-  width: 20px;
-  height: 20px;
   fill: var(--white-accent);
 }
 
@@ -216,16 +212,10 @@ img {
 }
 
 .icon-tel {
-  width: 10px;
-  height: 16px;
-  fill: currentColor;
   margin-right: 10px;
 }
 
 .icon-e-mail {
-  width: 16px;
-  height: 12px;
-  fill: currentColor;
   margin-right: 10px;
 }
 
@@ -332,10 +322,6 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-description);
-}
-.advantages-catalogue-icon {
-  width: 70px;
-  height: 70px;
 }
 
 .advantages-catalogue {
@@ -450,35 +436,6 @@ img {
   padding-bottom: var(--section-pb);
 }
 
-.yaco {
-  width: 45px;
-  height: 50px;
-}
-
-.tagline {
-  width: 40px;
-  height: 52px;
-}
-
-.company {
-  width: 40px;
-  height: 43px;
-}
-
-.foster {
-  width: 80px;
-  height: 42px;
-}
-
-.brand {
-  width: 60px;
-  height: 47px;
-}
-
-.tag {
-  width: 90px;
-  height: 45px;
-}
 .client-list {
   display: flex;
   align-items: center;
@@ -612,6 +569,7 @@ img {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
+  margin-right: 70px;
 }
 
 .footer .logo-link {
@@ -652,9 +610,16 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--white-accent);
+  margin-bottom: 20px;
 }
-.social-footer {
+
+.footer .container {
   display: flex;
+  align-items: baseline;
+}
+
+.social-list-item:not(:last-child) {
+  margin-right: 10px;
 }
 
 /* ============= END FOOTER ============= */
