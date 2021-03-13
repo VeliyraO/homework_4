@@ -301,6 +301,38 @@ img {
   letter-spacing: 0.03em;
   color: var(--text-description);
 }
+.advantages-catalogue-icon {
+  width: 70px;
+  height: 70px;
+}
+
+.advantages-catalogue {
+  display: flex;
+  margin-left: -30px;
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
+
+.advantages-catalogue-item {
+  flex-basis: calc(100% / 4 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.advantages-catalogue-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+  background: var(--background-masters);
+  border-radius: 4px;
+}
+
+.advantages-list-wraper {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 /* ============= END ADVANTAGE ============= */
 
@@ -440,8 +472,8 @@ img {
   border-radius: 4px;
 }
 
-.client-list-link:hover .social-list-icon,
-.client-list-link:focus .social-list-icon {
+.client-list-link:hover .client-list-icon,
+.client-list-link:focus .client-list-icon {
   fill: #2196f3;
 }
 
