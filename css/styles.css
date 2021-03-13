@@ -12,6 +12,7 @@
   --section-pt: 95px;
   --section-pb: 95px;
 }
+
 body {
   font-family: var(--main-font);
 }
