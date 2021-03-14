@@ -214,10 +214,12 @@ img {
 
 .icon-tel {
   margin-right: 10px;
+  fill: var(--text-description);
 }
 
 .icon-e-mail {
   margin-right: 10px;
+  fill: var(--text-description);
 }
 
 .contact-link-header:hover,
@@ -346,11 +348,7 @@ img {
   height: 120px;
   background: var(--background-masters);
   border-radius: 4px;
-}
-
-.advantages-list-wraper {
-  display: flex;
-  flex-wrap: wrap;
+  margin-bottom: 30px;
 }
 
 /* ============= END ADVANTAGE ============= */
@@ -402,8 +400,8 @@ img {
 }
 
 .masters-list-content-wraper {
-  margin-bottom: 30px;
-  margin-top: 30px;
+  padding-bottom: 30px;
+  padding-top: 30px;
   padding-right: 20px;
   padding-left: 20px;
 }
@@ -440,7 +438,10 @@ img {
 .client-list {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+}
+
+.client-list-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .client-list-link {
@@ -570,7 +571,6 @@ img {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
-  margin-right: 70px;
 }
 
 .footer .logo-link {
