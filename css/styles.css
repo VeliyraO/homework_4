@@ -194,6 +194,8 @@ img {
 }
 
 .contact-link-header {
+  display: flex;
+  align-items: center;
   text-decoration: none;
   color: var(--text-description);
   font-weight: 500;
@@ -571,6 +573,10 @@ img {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
+}
+
+.footer-wraper {
+  margin-right: 70px;
 }
 
 .footer .logo-link {
